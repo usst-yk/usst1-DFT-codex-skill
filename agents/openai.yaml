@@ -1,0 +1,4 @@
+interface:
+  display_name: "DFT Server"
+  short_description: "Connect to a first-principles server, generate/check DFT inputs, and prepare or submit jobs."
+  default_prompt: "Use $dft-server to verify or initialize SSH key login, check the DFT server, generate and validate VASP inputs with VASPkit when requested, then prepare or submit jobs after confirmation."
